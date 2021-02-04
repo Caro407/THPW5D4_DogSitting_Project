@@ -1,24 +1,20 @@
-# README
+# FreeDoc 
+## Models 
+| Model| Colonnes |
+| :---: | :---|
+| Dog | name(String), age(Integer)|
+| DogSitter | first_name(String), last_name(String), age(Integer)|
+|City| city_name(String), zip_code(String)|
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+## Jointures
+| Model| Jointures |
+| :---: | :---|
+| Stroll | Dog - DogSitter|
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## How to 
+1. cloner le repo ` git clone https://github.com/Caro407/THPW5D4_DogSitting_Project.git "repo"` 
+2. `cd repo`
+3. `bundle install`
+4. `rails db:create db:migrate db:seed`
+5. Have fun !
